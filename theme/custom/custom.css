@@ -1,0 +1,670 @@
+/*-------------Custom CSS------------- */
+
+/*-----Main Areas-----*/
+body { 
+    background:#EFEFEF;
+    font-family: oswald;
+}
+
+h1 {
+    font-family: oswald;
+}
+
+
+/*-----Buttons-----*/
+.btn-ghost {
+    background:#3456b5;
+    border-color: #3456b5;
+    color:#FFF;
+    text-shadow:0 1px 0 rgb(0, 0, 0);
+    font-family: oswald;
+}
+
+.btn-loadmore {
+    background:#3456b5;
+    border-color: #3456b5;
+    color:#FFF;
+    text-shadow:0 1px 0 rgb(0, 0, 0);
+    font-family: oswald;
+}
+
+.btn-primary {
+    background:#3456b5;
+    border-color:#3456b5;
+    font-family: oswald;
+}
+
+.filter-dropdowns .cat-col .btn-default {
+    background: #3456b5;
+    border-color: #3456b5;
+    color: #fff;
+    font-family: oswald;
+    text-shadow:0 1px 0 rgb(0, 0, 0);
+    margin-bottom:1px;
+}
+
+.filter-dropdowns .dropdown {
+    background: #3456b5;
+}
+
+.filter-dropdowns .dropdown > a {
+    color:#fff;
+    text-shadow:0 1px 0 rgb(0, 0, 0);
+}
+
+.filter-dropdowns .dropdown-menu .sub-menu {
+    background:#424242;
+    border-color:#424242;
+}
+
+.btn-loadmore {
+    font-family: oswald;
+}
+
+.filter-dropdowns {
+    font-family: oswald;
+}
+
+.filter-dropdowns .dropdown-menu > li > a, .filter-dropdowns .dropdown-menu > li > div > a {
+    font-family: oswald;
+}
+
+.cover .profile-buttons .btn-default {
+    background: #3456b5;
+    border-color: #3456b5;
+    color:#FFF;
+}
+
+.cover .profile-buttons .btn-default {
+    font-family: oswald;
+}
+
+.addComment .btn-submit {
+    font-family: oswald;
+    text-shadow:0 1px 0 rgb(0, 0, 0);
+}
+
+.btn-success {
+    font-family: oswald;
+}
+
+/*-----header-----*/
+#header {
+    background: #3456b5;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#header .main-links > ul > li > a {
+    color: #fff;
+    text-transform:uppercase;
+    font-family: oswald;
+}
+
+#header .btn-upload .icon-down-arrow {
+    display: none !important;
+}
+
+.navbar-default .right-menu.navbar-nav > li > a.btn-upload {
+    border: 2px solid #3456b5;
+}
+
+.navbar-default .right-menu.navbar-nav > li > a {
+    color:#FFF;
+}
+
+.navbar-default .right-menu.navbar-nav > li > a.btn-upload:hover, .navbar-default .right-menu.navbar-nav > li > a.btn-upload:focus { 
+    background:none; 
+}
+
+.navbar-default .right-menu.navbar-nav > li > a:hover {
+    color:#5677cb !important;
+}
+
+.navbar-default .right-menu .upload_link .btn-default.btn-newacc, .navbar-default .right-menu .navbar-sm-login-links .btn-default.btn-newacc {
+    border-color: #3456b5;
+}
+
+.navbar-default .right-menu .upload_link .btn-default, .navbar-default .right-menu .navbar-sm-login-links .btn-default {
+    border-color: #3456b5;
+}
+
+.navbar-default .right-menu .upload_link .btn-default.btn-newacc:hover, .navbar-default .right-menu .upload_link .btn-default.btn-newacc:active, .navbar-default .right-menu .navbar-sm-login-links .btn-default.btn-newacc:hover, .navbar-default .right-menu .navbar-sm-login-links .btn-default.btn-newacc:active {
+    background:none; 
+}
+
+#header .main-links > ul > li > a:focus, #header .main-links > ul > li > a:hover {
+    color:#EEE;
+}
+
+.navbar-default .right-menu .upload_link .btn-default.btn-login:hover, .navbar-default .right-menu .upload_link .btn-default.btn-login:active, .navbar-default .right-menu .navbar-sm-login-links .btn-default.btn-login:hover, .navbar-default .right-menu .navbar-sm-login-links .btn-default.btn-login:active {
+    background:none;
+}
+
+.navbar-default .right-menu .upload_link .btn-default, .navbar-default .right-menu .navbar-sm-login-links .btn-default {
+    font-family: oswald;
+}
+
+input, button, select, textarea {
+    font-family: oswald;
+}
+
+#header .search .cbsearchtype .btn-default {
+    font-family: oswald;
+}
+
+/*hide cb mobile menu*/
+.navbar-toggle {
+    display:none !important;
+}
+
+/*adjust cd mobile search */
+.btn-search-toggle { 
+    width:15px;
+}
+
+#header .btn-search-toggle {
+    margin-top:3px;
+}
+
+/* hide username headerbar */
+.user-area.dropdown-toggle span {
+    display:none !important;
+}
+
+/* Hide upload text headerbar */
+.dropdown.upload_link span {
+    display:none;
+}
+
+/*-----Footer-----*/
+#footer {
+    background: #3456b5;
+    font-weight: 700;
+    z-index:4;
+}
+
+/*-----header  Searchbar-----*/
+#header .search input[type="text"]::-webkit-input-placeholder { 
+color:#fff !important; 
+}
+
+#header .search input[type="text"] {
+    background: #5677cb;
+    color:#FFF !important;
+}
+
+#header .search .cbsearchtype {
+    background: #5677cb;
+}
+
+#header  .search input[type="text"]::-moz-placeholder {
+    color:#fff;
+}
+
+#header .search .cbsearchtype .btn-default {
+    background: #5677cb;
+    color:#fff;
+}
+
+#header .btn {
+    border-radius:4px 0px 0px 4px;
+}
+
+#header .search .cbsearchtype .btn-default.btn-search {
+    color: #fff;
+    background: #5677cb;
+}
+
+.btn-search-toggle {
+    color:#fff;
+}
+
+#footer {
+    font-weight: normal;
+}
+
+/*-----Watch Video Page-----*/
+.view-details header.details h1, .video-details header.details h1 {
+    font-family: oswald;
+}
+
+.view-details header.details .user-video-info .user-title, .video-details header.details .user-video-info .user-title {
+    font-family: oswald;
+}
+
+.addComment h2 {
+    font-family: oswald;
+    font-size:20px;
+}
+
+.view-details header.details .user-video-info .views-counter, .video-details header.details .user-video-info .views-counter {
+    font-family: oswald;
+    font-size:18px;
+}
+
+/*-----Channel Page-----*/
+.flat-tabs h2 {
+    font-family:oswald;
+}
+
+.fav-repo .desc-list, .watch-vid-details .desc-list strong {
+    font-weight: normal;
+}
+
+.sidebar-channels .channel-item .channel-info h3 {
+    font-family:oswald;
+}
+
+.cover .profile-buttons h2 {
+    font-family:oswald;
+}
+
+/*-----Box titles-----*/
+.item-photo .photo-info {
+    font-family: oswald;
+}
+
+.featured-video .title {
+    font-family: oswald;
+} 
+
+.featured-video {
+    font-family: oswald;
+} 
+
+.item-video .thumb-holder .video-link .title {
+    font-family: oswald;
+    font-size:16px;
+} 
+
+.videos .video-info .title {
+    font-family: oswald;
+    font-size:16px;
+} 
+
+.videos .video-info {
+    font-family: oswald;
+} 
+  
+.item-channel h2 {
+    font-family: oswald;
+} 
+
+.collections .title {
+    font-family: oswald;
+    font-size:16px;
+} 
+
+.item-photo .photo-info strong {
+    font-family: oswald;
+    font-size:16px;
+} 
+
+/*-----Sidebar-----*/
+#sidebar h2 {
+    font-family: oswald;
+    font-size:17px;
+    background: #3456b5;
+    border-radius: 0 20px 0 0;
+    color: #fff;
+    padding: 7px;
+    border-radius: 0 20px 0 0;
+    text-shadow:0 1px 0 rgb(0, 0, 0);
+}
+
+.watchvideopage .box-ad {
+    margin: 0 0 1px;
+}
+
+/*-----Login Page-----*/
+.signup-block .side-box, .forgot-block .side-box, .signin-block .side-box {
+    background:#3456b5;
+}
+
+.signup-block .side-box .btn-default, .forgot-block .side-box .btn-default, .signin-block .side-box .btn-default {
+    border-color: #0080b4 !important;
+}
+
+/*-----Featured Area-----*/
+#featured_load_more {
+    visibility: hidden;
+}
+
+/*-----Hompage Section Titles-----*/
+#contentfull h1 {
+    background: #3456b5;
+    border-radius: 3px 15px 0 0;
+    color: #fff;
+    padding: 7px;
+    text-transform:uppercase;
+    font-size:17px;
+    text-shadow:0 1px 0 rgb(0, 0, 0);
+}
+
+/*----- Pagination-----*/
+.pagination > li a {
+    border-color: #fff;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 10px 20px;
+    text-shadow:0 1px 0 rgb(0, 0, 0);
+}
+.pagination > li > a, .pagination > li > span {
+    background-color: #3456b5;
+}
+.pagination > li a:hover {
+    background:#26469f;
+    color:#FFF;
+}
+
+.pagination > li.active > a, .pagination > li.active > a:focus, .pagination > li.active > a:hover, .pagination > li.active > span, .pagination > li.active > span:focus, .pagination > li.active > span:hover {
+    background:#26469f;
+    color:#fff;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    border-radius: 5px;
+}
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-radius: 5px;
+}
+
+.pagination {
+    background:none;
+}
+
+/*-----Editors Pick-----*/
+.vscroll-line {
+    height: 460px !important;
+}
+
+.scrollable-area-wrapper .hscroll-line, .scrollable-area-wrapper .vscroll-line {
+    background:#EEE;
+}
+
+/* Scroll bar width and style */
+.scrollable-area-wrapper .hscrollbar, .scrollable-area-wrapper .vscrollbar { width:10px !important; }
+.scrollable-area-wrapper .hscroll-slider, .scrollable-area-wrapper .vscroll-slider { width:10px !important; border-radius:10px; background:#0080b4; }
+.scrollable-area-wrapper .hscroll-line, .scrollable-area-wrapper .vscroll-line { width:0; }
+
+/* Scroll bar height */
+.vscroll-slider { max-height:160px; min-height:160px; }
+
+/*-----Pushy Extra Styles-----*/
+#pushycontainer .menu-btn {
+    background:none;
+    border: medium none;
+    color: #fff;
+    display: block;
+    font-size: 21px;
+    height: 35px;
+    margin-top: 12px;
+    padding-left:2px;
+    padding-right:0;
+}
+
+.pushytitles {
+    font-size:16px; 
+    color:#fff; 
+    background:#3456b5 ; 
+    padding:10px; 
+    display:block;
+    font-family:oswald;
+}
+
+#pushycontainer {
+    max-width:35px;
+    float:left;
+    margin-right:10px;
+}
+
+.pushy a {
+    font-family:oswald;
+    font-size:15px;
+}
+
+.pushy a:hover { 
+    background:#111;
+}
+
+.pushy-content li {
+    list-style:none !important;
+}
+
+.pushy-content .cbCategoryItem {
+    list-style:none !important;
+}
+
+/*hide 'all' from category list */
+.pushy-content .cbCategoryItem:nth-of-type(1) {
+    display:none;
+}
+
+/*hide toggle from category list */
+.pushy-content .CategoryToggler.none {
+    display: none;
+}
+
+/*-----Layout Adjustment-----*/
+#contentfull {
+    width: 100%;
+    float:left;
+}
+
+
+/*-----Screen Sizes Adjustments-----*/
+/* screens smaller than 480px - 1 Column */
+@media screen and (max-width:480px){ 
+/* VideoBox */
+.item-video.col-lg-4 { width: 100%; }
+
+/* Photobox */
+.item-photo.col-lg-4 { width:100%; }
+
+/* Channel Box */
+.item-channel.col-lg-3 { width:100%; }
+
+/* Collection Box */
+.collection-item.col-lg-4 { width:100%; }
+
+/* Featuredvideobox */
+#featured_vid_sec .col-lg-6 { width: 100%; }
+
+/* Videopage - VideoBox */
+.item-video.col-lg-3 { width: 100%; }
+
+/* Playlist Box */
+.playlist-item.col-lg-4 { width:100%; }
+
+/* Container */
+.container {width: 90%; }
+
+/* MainMenu */
+.main-links { display:none !important; }
+
+/* Featuredvideobox */
+#contentfull #featured_vid_sec .col-lg-6 { width: 100%; }
+
+
+/* Editors Pick */
+.featured-video { width:100%; }
+
+/*Right Hand Menu*/
+.navbar-default .right-menu { display:none; }
+
+/* pushy spacing */
+#pushycontainer { margin-left:5px; margin-right:3px; }
+
+}
+
+/* screens bigger than 481 with a of max 1023px - 2 Column*/
+@media screen and (min-width:481px) and (max-width:1023px){ 
+/* VideoBox */
+.item-video.col-lg-4 { width: 50%; }
+
+/* Photobox */
+.item-photo.col-lg-4 { width:50%; }
+
+/* Collection Box */
+.collection-item.col-lg-4 { width:50%; }
+
+/* Channel Box */
+.item-channel.col-lg-3 { width:50%; }
+
+/* Featuredvideobox */
+#featured_vid_sec .col-lg-6 { width: 50%; }
+
+/* Videopage - VideoBox */
+.item-video.col-lg-3 { width: 50%; }
+
+/* Playlist Box */
+.playlist-item.col-lg-4 { width:50%; }
+
+/* Container */
+.container {width: 90%; }
+
+/* MainMenu */
+.main-links { display:none !important; }
+
+
+/*Right Hand Menu*/
+.navbar-default .right-menu { display:none; }
+
+/* pushy spacing */
+#pushycontainer { margin-left:5px; margin-right:3px; }
+
+}
+
+
+/* screens bigger than 1024 with a max of 1539px - 4 Column */
+@media screen and (min-width:1024px) and (max-width:1539px){ 
+/* VideoBox */
+.item-video.col-lg-4 { width: 25%; }
+
+/* Photobox */
+.item-photo.col-lg-4 { width:25%; }
+
+/* Channel Box */
+.item-channel.col-lg-3 { width:25%; }
+
+/* Collection Box */
+.collection-item.col-lg-4 { width:25%; }
+
+/* Featuredvideobox */
+#featured_vid_sec .col-lg-6 { width: 25%; }
+
+/* Videopage - VideoBox */
+.item-video.col-lg-3 { width: 25%; }
+
+/* Playlist Box */
+.playlist-item.col-lg-4 { width:25%; }
+
+/* MainMenu */
+.main-links { display:none !important; }
+
+}
+
+/* screens bigger than 1540  - 4 Column(old5) */
+@media screen and (min-width:1540px) { 
+/* VideoBox */
+.item-video.col-lg-4 { width: 25%; }
+
+/* Photobox */
+.item-photo.col-lg-4 { width:25%; }
+
+/* Channel Box */
+.item-channel.col-lg-3 { width:25%; }
+
+/* Collection Box */
+.collection-item.col-lg-4 { width:25%; }
+
+/* Featuredvideobox */
+#featured_vid_sec .col-lg-6 { width: 25%; }
+
+/* Videopage - VideoBox */
+.item-video.col-lg-3 { width: 25%; }
+
+/* Playlist Box */
+.playlist-item.col-lg-4 { width:25%; }
+}
+
+
+/*----- Editors Pick Fix----- */
+
+@media screen and (min-width:992px) and (max-width:1200px){ 
+.editorpick-videos .scrollable-area { max-width:95%; }
+}
+
+/* Header/Logo Fix Small Devices */
+@media screen and (max-width:280px){ 
+.logo { max-width:65%; }
+}
+
+
+
+
+/*-------------TEMP FIXES-------------*/
+
+/* fix layout issue in My account area */
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #2b2b2d;
+    color:#999;
+}
+
+/* general alerts width fix */
+.alert-msg-holder .alert { max-width:60%; }
+
+/* fix height on videobox */
+.videos .video-info .title {
+    height: 40px;
+}
+
+/* Quick Pick Fix */
+.pl_thumb a .img-responsive { min-height:90px; }
+.pl_thumb {  min-height:90px; }
+.pl_thumb .pl_duration { visibility:hidden; }
+.pl_details p:nth-child(2) { display: none; }
+
+
+/*----- New Temp Fixes -----*/
+/* Channels - photos - load more fix */
+#more-channel-photos {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Manage Videos - Edit Video fix */
+.manage-page .fieldset {
+    clear:left;
+}
+.manage-page .btn.btn-primary {
+    margin-bottom:30px;
+}
+
+/* Manage account - button fix */
+.manage-page .btn.btn-primary.btn-sm {
+    padding:5px;
+}
+ 
+/*-----Recaptcha Size Fix-----*/
+/* screens smaller than 480px - 1 Column */
+@media screen and (max-width:480px){ 
+.recaptchatable {
+transform:scale(0.77);
+-webkit-transform:scale(0.77);
+transform-origin:0 0;
+-webkit-transform-origin:0 0;
+max-width:100%;
+}
+}
+
+
+/*-----Fix Social Icon Alignment-----*/
+#social_buttons br { display:none; }
+
+
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+	<name>Snow</name>
+	<author>Dark Studios, Jamil ur Rehman, Fahad Abbas, Saqib Razzaq</author>
+	<smarty_version>3</smarty_version>
+	<version>1.5</version>
+	<released>25nd June 2017</released>
+	<description>Snow Theme For ClipBucket. Based on CB v2.8.3</description>
+	<website title="Dark Studios">http://dark-studios.com</website>
+	<license>Attribute Assurance License</license>
+</template>
